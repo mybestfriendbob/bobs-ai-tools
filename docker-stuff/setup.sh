@@ -33,6 +33,8 @@ podman compose up -d
 
 # this is the fun part now go run the abliterated version
 podman exec -it ollama-engine ollama run mannix/llama3.1-8b-abliterated
+podman exec -it ollama-engine ollama pull llama3.1:8b
+
 
 # when complete you should see a success message and have a >>> prompt to interract.
 
